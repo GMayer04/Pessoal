@@ -1,0 +1,59 @@
+body{
+    color: black;
+    background-image: url("/Img/BgTeste.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+    background-position: center;
+    background-size: 150%;
+
+}
+main{
+    position: center;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    text-align: center;
+    justify-content: center;
+  
+    
+    
+}
+
+h1{
+   color:  dark;
+}
+
+h2{
+    color:darkolivegreen;
+}
+
+p{
+    margin: 1%;
+    
+}
+
+Nav Img{
+    width: 45px;
+    right: 45px;
+    border-radius: 50%;
+}
+
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:darkolivegreen;
+    font-weight: bold;
+    padding: 5px 5px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: opacity 0.5s;
+    animation: 0.8s linear infinite rotate;
+    border: 0px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+button:hover{
+    transform: scale(1.15);
+    background-color: #009900;
+}
